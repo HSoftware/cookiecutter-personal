@@ -1,0 +1,22 @@
+# conda env create --file environment.yml
+# mamba env create --file environment.yml
+name: cookiecutter_python_project
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - fs
+  - jupyter
+  - jupyterlab
+  - markupsafe=2.0.1
+  - pathlib
+  - pip
+  - pyprojroot
+  - pip:
+    - pyhere
+  - numpy 
+  - pandas
+  - matplotlib
+  - seaborn

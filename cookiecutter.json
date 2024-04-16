@@ -1,0 +1,8 @@
+{
+    "project_title": "cookiecutter-personal", 
+    "project_slug": "{{ cookiecutter.project_title.lower().replace(' ', '_').replace('-', '_') }}",
+    "project_description": "Acá se pone la descripción del proyecto.",
+    "project_author_name": "HSoft", 
+    "project_packages": ["All", "Minimal"],
+    "project_python_version": "3.12.2"
+}
